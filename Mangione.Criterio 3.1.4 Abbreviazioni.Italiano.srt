@@ -1,0 +1,452 @@
+﻿1
+00:00:03,750 --> 00:00:06,750
+oggi parleremo del criterio di successo
+
+2
+00:00:06,750 --> 00:00:10,690
+3.1.4 le abbreviazioni delle linee guida
+
+3
+00:00:10,690 --> 00:00:14,349
+per l'accessibilità del W3C
+
+4
+00:00:14,349 --> 00:00:16,780
+anzitutto a cosa serve questo criterio
+
+5
+00:00:16,780 --> 00:00:18,520
+lo scopo di questo criterio è quello di
+
+6
+00:00:18,520 --> 00:00:19,690
+garantire che gli utenti possano
+
+7
+00:00:19,690 --> 00:00:23,130
+accedere alla forma estesa di abbreviazioni
+
+8
+00:00:23,130 --> 00:00:26,320
+oppure avere un significato di una
+
+9
+00:00:26,320 --> 00:00:28,270
+parola che potrebbe avere vari
+
+10
+00:00:28,270 --> 00:00:33,129
+significati nella pagina ,si creano così
+
+11
+00:00:33,129 --> 00:00:36,190
+due situazioni la situazione a e la
+
+12
+00:00:36,190 --> 00:00:38,890
+citazione b situazione a quando la
+
+13
+00:00:38,890 --> 00:00:40,510
+abbreviazione ha solo un significato
+
+14
+00:00:40,510 --> 00:00:42,579
+all'interno della pagina alla situazione
+
+15
+00:00:42,579 --> 00:00:45,250
+b quando l'abbreviazione può avere vari
+
+16
+00:00:45,250 --> 00:00:46,900
+significati sempre all'interno della
+
+17
+00:00:46,900 --> 00:00:49,750
+stessa pagina successivamente possiamo
+
+18
+00:00:49,750 --> 00:00:53,670
+possiamo fornire spiegazione
+
+19
+00:00:53,670 --> 00:00:56,440
+per la prima occorrenza della abbreviazione
+
+20
+00:00:56,440 --> 00:00:59,020
+oppure per tutte le occorrenze delle
+
+21
+00:00:59,020 --> 00:01:01,989
+abbreviazioni in una pagina nella situazione
+
+22
+00:01:01,989 --> 00:01:03,820
+in b invece possiamo fornire
+
+23
+00:01:03,820 --> 00:01:05,979
+l'espansione una spiegazione per tutte
+
+24
+00:01:05,979 --> 00:01:07,510
+le occorrenze delle abbreviazioni in una pagina
+
+25
+00:01:07,510 --> 00:01:08,049
+web
+
+26
+00:01:08,049 --> 00:01:11,440
+così abbiamo varie tecniche che ci hanno
+
+27
+00:01:11,440 --> 00:01:14,729
+aiutato a risolvere questo criterio
+
+28
+00:01:14,729 --> 00:01:19,690
+una di queste è la g 55 ovvero il
+
+29
+00:01:19,690 --> 00:01:22,750
+collegamento a definizioni in questa
+
+30
+00:01:22,750 --> 00:01:23,290
+tecnica
+
+31
+00:01:23,290 --> 00:01:26,740
+creiamo così un collegamento con la
+
+32
+00:01:26,740 --> 00:01:32,140
+parola a  un sito ,un fonte esterna ,che
+
+33
+00:01:32,140 --> 00:01:36,130
+la spiega ,in questo caso ,questa è la
+
+34
+00:01:36,130 --> 00:01:38,890
+riga di codice in questo caso ho messo
+
+35
+00:01:38,890 --> 00:01:43,030
+la sigla afp gli ho dato il name
+
+36
+00:01:43,030 --> 00:01:47,170
+alfafetoproteina e l'elemento a gli ho messo
+
+37
+00:01:47,170 --> 00:01:52,119
+la fonte del sito andando sulla pagina
+
+38
+00:01:52,119 --> 00:01:57,310
+html possiamo vedere esempio g55 afp
+
+39
+00:01:57,310 --> 00:02:00,369
+esce la pagina con la spiegazione di
+
+40
+00:02:00,369 --> 00:02:03,970
+questa sigla successivamente passiamo
+
+41
+00:02:03,970 --> 00:02:06,340
+alla tecnica h28 ovvero quella di
+
+42
+00:02:06,340 --> 00:02:09,240
+fornire delle definizioni utilizzando
+
+43
+00:02:09,240 --> 00:02:12,750
+un elemento chiamato abbr questo
+
+44
+00:02:12,750 --> 00:02:16,490
+elemento ci richiede il titolo ,infatti
+
+45
+00:02:16,490 --> 00:02:20,700
+per esempio io ho messo all'elemento
+
+46
+00:02:20,700 --> 00:02:21,690
+abbr
+
+47
+00:02:21,690 --> 00:02:24,750
+il testo "Es."
+
+48
+00:02:24,750 --> 00:02:26,520
+io gli ho messo con titolo esempio
+
+49
+00:02:26,520 --> 00:02:29,160
+,ovvero la forma estesa della sigla e
+
+50
+00:02:29,160 --> 00:02:33,590
+anche perché per www ovvero world wilde web
+
+51
+00:02:33,590 --> 00:02:37,620
+il risultato viene così l'utente basta
+
+52
+00:02:37,620 --> 00:02:41,790
+che posiziona il cursore
+
+53
+00:02:41,790 --> 00:02:45,240
+sopra la pagina con l'elemento abbr e
+
+54
+00:02:45,240 --> 00:02:49,830
+gli esce una mini view con il contenuto
+
+55
+00:02:49,830 --> 00:02:53,370
+che ci fornisce la forma estesa della
+
+56
+00:02:53,370 --> 00:02:58,080
+sigla .successivamente c'è la tecnica g70
+
+57
+00:02:58,080 --> 00:03:01,770
+ovvero fornire una funzione per cercare
+
+58
+00:03:01,770 --> 00:03:04,100
+un dizionario online utilizzando
+
+59
+00:03:04,100 --> 00:03:08,430
+semplicemente  l'elemento a linko
+
+60
+00:03:08,430 --> 00:03:11,820
+la parola dizionario mettendo
+
+61
+00:03:11,820 --> 00:03:15,840
+la fonte di un dizionario online esterno
+
+62
+00:03:15,840 --> 00:03:18,060
+in questo caso quello  treccani dove uno
+
+63
+00:03:18,060 --> 00:03:20,520
+potrebbe cercare una qualsiasi parola e
+
+64
+00:03:20,520 --> 00:03:24,710
+gli esce  la definizione successivamente
+
+65
+00:03:24,710 --> 00:03:28,230
+vi è la tecnica h 60 ovvero l'utilizzo
+
+66
+00:03:28,230 --> 00:03:30,330
+di un elemento link per il collegamento
+
+67
+00:03:30,330 --> 00:03:34,560
+a un glossario sempre esterno ,in questo
+
+68
+00:03:34,560 --> 00:03:37,320
+caso abbiamo linkato il "grossario.html" e
+
+69
+00:03:37,320 --> 00:03:41,960
+con
+
+70
+00:03:41,960 --> 00:03:45,360
+l'elemento a abbiamo linkato la pagina
+
+71
+00:03:45,360 --> 00:03:47,340
+glossario.html che ho creato
+
+72
+00:03:47,340 --> 00:03:51,420
+esternamente ,ovvero ora faccio vedere,
+
+73
+00:03:51,420 --> 00:03:53,910
+ovvero questa cliccando sul
+
+74
+00:03:53,910 --> 00:03:56,190
+sul link cioè se la pallina glossario
+
+75
+00:03:56,190 --> 00:03:59,640
+che ho creato io esternamente facendo
+
+76
+00:03:59,640 --> 00:04:02,430
+liste non puntate e ho fatto un mini
+
+77
+00:04:02,430 --> 00:04:05,660
+glossario mettendoci due parole a caso
+
+78
+00:04:05,660 --> 00:04:08,160
+,successivamente passiamo alla tecnica che è la
+
+79
+00:04:08,160 --> 00:04:13,530
+G97 che
+
+80
+00:04:13,530 --> 00:04:15,000
+fornisce un primo utilizzo di
+
+81
+00:04:15,000 --> 00:04:17,820
+abbreviazioni e
+
+82
+00:04:17,820 --> 00:04:20,850
+subito dopo fornisce una forma estesa di
+
+83
+00:04:20,850 --> 00:04:23,810
+una sigla in questo caso semplicemente
+
+84
+00:04:23,810 --> 00:04:26,790
+dopo la sigla W3C ci ho messo tra
+
+85
+00:04:26,790 --> 00:04:29,430
+parentesi la forma estesa scrivendo
+
+86
+00:04:29,430 --> 00:04:33,080
+world wide web consortium
+
+87
+00:04:33,080 --> 00:04:36,180
+infine arriviamo all'ultima tenga ovvero
+
+88
+00:04:36,180 --> 00:04:39,570
+la  G62 ovvero fornire è sempre un
+
+89
+00:04:39,570 --> 00:04:42,480
+glossario in questo caso utilizziamo un
+
+90
+00:04:42,480 --> 00:04:45,870
+elemento a per linkare il glossario che
+
+91
+00:04:45,870 --> 00:04:48,660
+questa volta è interno alla pagina
+
+92
+00:04:48,660 --> 00:04:53,970
+quindi per far ciò abbiamo messo l'ID
+
+93
+00:04:53,970 --> 00:04:59,610
+glossario all'elemento ul per la
+
+94
+00:04:59,610 --> 00:05:01,470
+lista che era il glossario che ho
+
+95
+00:05:01,470 --> 00:05:03,650
+copiato, che c'era anche nella pagina
+
+96
+00:05:03,650 --> 00:05:06,180
+glossario.html e
+
+97
+00:05:06,180 --> 00:05:08,790
+poi come il link della parola glossario
+
+98
+00:05:08,790 --> 00:05:11,280
+ho messo all'hashtag per linkare l'ID e
+
+99
+00:05:11,280 --> 00:05:14,160
+magari sommando si può
+
+100
+00:05:14,160 --> 00:05:17,190
+vedere che quando uno va a cliccare glossario ci
+
+101
+00:05:17,190 --> 00:05:20,070
+porta direttamente al glossario che sarà
+
+102
+00:05:20,070 --> 00:05:24,660
+sparso nella pagina nella pagina
+
+103
+00:05:24,660 --> 00:05:27,900
+web dove uno può andare a trovare e a
+
+104
+00:05:27,900 --> 00:05:32,830
+vedere la definizione della parola così
+
+105
+00:05:32,830 --> 00:05:35,330
+[Musica]
+
+106
+00:05:35,330 --> 00:05:37,500
+grazie alla realizzazione di queste 6
+
+107
+00:05:37,500 --> 00:05:39,630
+tecniche  siamo
+
+108
+00:05:39,630 --> 00:05:44,100
+riusciti a soddisfare il criterio di
+
+109
+00:05:44,100 --> 00:05:46,270
+successo delle abbreviazioni
+
+110
+00:05:46,270 --> 00:05:49,540
+tutto questo comunque è stato
+
+111
+00:05:49,540 --> 00:05:53,880
+documentato in questo documento con
+
+112
+00:05:53,880 --> 00:05:57,160
+righe di codice e spiegazioni
+
+113
+00:05:57,160 --> 00:05:59,970
+arrivederci prof
+
