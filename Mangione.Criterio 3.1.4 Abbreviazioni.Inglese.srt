@@ -1,0 +1,451 @@
+1
+00:00:03,750 --> 00:00:06,750
+today we will talk about the success criterion
+
+2
+00:00:06,750 --> 00:00:10,690
+3.1.4 abbreviations of the guidelines
+
+3
+00:00:10,690 --> 00:00:14,349
+for the accessibility of the W3C
+
+4
+00:00:14,349 --> 00:00:16,780
+first of all what is the purpose of this criterion
+
+5
+00:00:16,780 --> 00:00:18,520
+the purpose of this criterion is to
+
+6
+00:00:18,520 --> 00:00:19,690
+ensure that users can
+
+7
+00:00:19,690 --> 00:00:23,130
+access the extended form of abbreviations
+
+8
+00:00:23,130 --> 00:00:26,320
+or have a meaning of a
+
+9
+00:00:26,320 --> 00:00:28,270
+word that could have various
+
+10
+00:00:28,270 --> 00:00:33,129
+meanings on the page are created in this way
+
+11
+00:00:33,129 --> 00:00:36,190
+two situations the situation a and la
+
+12
+00:00:36,190 --> 00:00:38,890
+quote b situation a when the
+
+13
+00:00:38,890 --> 00:00:40,510
+abbreviation has only one meaning
+
+14
+00:00:40,510 --> 00:00:42,579
+within the page to the situation
+
+15
+00:00:42,579 --> 00:00:45,250
+b when the abbreviation can have several
+
+16
+00:00:45,250 --> 00:00:46,900
+meanings always within the
+
+17
+00:00:46,900 --> 00:00:49,750
+same page later we can
+
+18
+00:00:49,750 --> 00:00:53,670
+we can provide explanation
+
+19
+00:00:53,670 --> 00:00:56,440
+for the first occurrence of the abbreviation
+
+20
+00:00:56,440 --> 00:00:59,020
+or for all occurrences of
+
+21
+00:00:59,020 --> 00:01:01,989
+abbreviations on a page in the situation
+
+22
+00:01:01,989 --> 00:01:03,820
+in b instead we can provide
+
+23
+00:01:03,820 --> 00:01:05,979
+expansion an explanation for all
+
+24
+00:01:05,979 --> 00:01:07,510
+occurrences of abbreviations on a page
+
+25
+00:01:07,510 --> 00:01:08,049
+web
+
+26
+00:01:08,049 --> 00:01:11,440
+so we have various techniques that have us
+
+27
+00:01:11,440 --> 00:01:14,729
+helped to solve this criterion
+
+28
+00:01:14,729 --> 00:01:19,690
+one of these is g 55 or il
+
+29
+00:01:19,690 --> 00:01:22,750
+link to definitions in this
+
+30
+00:01:22,750 --> 00:01:23,290
+technique
+
+31
+00:01:23,290 --> 00:01:26,740
+we thus create a link with the
+
+32
+00:01:26,740 --> 00:01:32,140
+word to a site, an external source, that
+
+33
+00:01:32,140 --> 00:01:36,130
+explains it, in this case, this is the
+
+34
+00:01:36,130 --> 00:01:38,890
+line of code in this case I put
+
+35
+00:01:38,890 --> 00:01:43,030
+the acronym afp I gave it the name
+
+36
+00:01:43,030 --> 00:01:47,170
+alphafetoprotein and the element a I put on it
+
+37
+00:01:47,170 --> 00:01:52,119
+the source of the site by going to the page
+
+38
+00:01:52,119 --> 00:01:57,310
+html we can see example g55 afp
+
+39
+00:01:57,310 --> 00:02:00,369
+the page exits with the explanation of
+
+40
+00:02:00,369 --> 00:02:03,970
+this acronym subsequently we pass
+
+41
+00:02:03,970 --> 00:02:06,340
+to the h28 technique or that of
+
+42
+00:02:06,340 --> 00:02:09,240
+provide definitions using
+
+43
+00:02:09,240 --> 00:02:12,750
+an element called abbr this
+
+44
+00:02:12,750 --> 00:02:16,490
+element requires us the title, in fact
+
+45
+00:02:16,490 --> 00:02:20,700
+for example I have put to the element
+
+46
+00:02:20,700 --> 00:02:21,690
+abbr
+
+47
+00:02:21,690 --> 00:02:24,750
+the text "Ex."
+
+48
+00:02:24,750 --> 00:02:26,520
+I have put it with the title example
+
+49
+00:02:26,520 --> 00:02:29,160
+, i.e. the extended form of the initials e
+
+50
+00:02:29,160 --> 00:02:33,590
+also because for www or world wilde web
+
+51
+00:02:33,590 --> 00:02:37,620
+the result is so the user is enough
+
+52
+00:02:37,620 --> 00:02:41,790
+which places the cursor
+
+53
+00:02:41,790 --> 00:02:45,240
+above the page with the abbr element and
+
+54
+00:02:45,240 --> 00:02:49,830
+a mini view with the content comes out
+
+55
+00:02:49,830 --> 00:02:53,370
+which gives us the extended form of the
+
+56
+00:02:53,370 --> 00:02:58,080
+abbreviation. then there is the g70 technique
+
+57
+00:02:58,080 --> 00:03:01,770
+that is, provide a function to search
+
+58
+00:03:01,770 --> 00:03:04,100
+an online dictionary using
+
+59
+00:03:04,100 --> 00:03:08,430
+simply the linko element
+
+60
+00:03:08,430 --> 00:03:11,820
+the word dictionary putting
+
+61
+00:03:11,820 --> 00:03:15,840
+the source of an external online dictionary
+
+62
+00:03:15,840 --> 00:03:18,060
+in this case the braid one where one
+
+63
+00:03:18,060 --> 00:03:20,520
+could search for any word and
+
+64
+00:03:20,520 --> 00:03:24,710
+he gets the definition later
+
+65
+00:03:24,710 --> 00:03:28,230
+there is the h 60 technique or the use
+
+66
+00:03:28,230 --> 00:03:30,330
+of a link element for linking
+
+67
+00:03:30,330 --> 00:03:34,560
+to an always external glossary in this
+
+68
+00:03:34,560 --> 00:03:37,320
+case we linked the "grossario.html" e
+
+69
+00:03:37,320 --> 00:03:41,960
+with
+
+70
+00:03:41,960 --> 00:03:45,360
+the element a we linked the page
+
+71
+00:03:45,360 --> 00:03:47,340
+glossary.html I created
+
+72
+00:03:47,340 --> 00:03:51,420
+externally, or now I show,
+
+73
+00:03:51,420 --> 00:03:53,910
+or this by clicking on
+
+74
+00:03:53,910 --> 00:03:56,190
+on the link ie if the glossary ball
+
+75
+00:03:56,190 --> 00:03:59,640
+that I created externally by doing
+
+76
+00:03:59,640 --> 00:04:02,430
+unlisted lists and I made a mini
+
+77
+00:04:02,430 --> 00:04:05,660
+glossary putting in two words at random
+
+78
+00:04:05,660 --> 00:04:08,160
+, then we pass to the technique which is the
+
+79
+00:04:08,160 --> 00:04:13,530
+G97 which
+
+80
+00:04:13,530 --> 00:04:15,000
+provides a first use of
+
+81
+00:04:15,000 --> 00:04:17,820
+abbreviations and
+
+82
+00:04:17,820 --> 00:04:20,850
+immediately thereafter provides an extended form of
+
+83
+00:04:20,850 --> 00:04:23,810
+an acronym in this case simply
+
+84
+00:04:23,810 --> 00:04:26,790
+after the acronym W3C I put between
+
+85
+00:04:26,790 --> 00:04:29,430
+parenthesis the extended form by writing
+
+86
+00:04:29,430 --> 00:04:33,080
+world wide web consortium
+
+87
+00:04:33,080 --> 00:04:36,180
+finally we come to the last tenga that is
+
+88
+00:04:36,180 --> 00:04:39,570
+the G62 or supply is always a
+
+89
+00:04:39,570 --> 00:04:42,480
+glossary in this case we use a
+
+90
+00:04:42,480 --> 00:04:45,870
+element a to link to the glossary that
+
+91
+00:04:45,870 --> 00:04:48,660
+this time it is inside the page
+
+92
+00:04:48,660 --> 00:04:53,970
+so to do this we put the ID
+
+93
+00:04:53,970 --> 00:04:59,610
+glossary to the ul element for the
+
+94
+00:04:59,610 --> 00:05:01,470
+list that was the glossary I have
+
+95
+00:05:01,470 --> 00:05:03,650
+copied, which was also on the page
+
+96
+00:05:03,650 --> 00:05:06,180
+glossary.html e
+
+97
+00:05:06,180 --> 00:05:08,790
+then as the link of the word glossary
+
+98
+00:05:08,790 --> 00:05:11,280
+I put the hashtag to link the ID and
+
+99
+00:05:11,280 --> 00:05:14,160
+maybe adding up you can
+
+100
+00:05:14,160 --> 00:05:17,190
+see that when one goes to click glossary there
+
+101
+00:05:17,190 --> 00:05:20,070
+leads directly to the glossary that will be
+
+102
+00:05:20,070 --> 00:05:24,660
+scattered across the page
+
+103
+00:05:24,660 --> 00:05:27,900
+web where one can go to find ea
+
+104
+00:05:27,900 --> 00:05:32,830
+see the definition of the word thus
+
+105
+00:05:32,830 --> 00:05:35,330
+[Music]
+
+106
+00:05:35,330 --> 00:05:37,500
+thanks to the realization of these 6
+
+107
+00:05:37,500 --> 00:05:39,630
+techniques we are
+
+108
+00:05:39,630 --> 00:05:44,100
+managed to meet the criterion of
+
+109
+00:05:44,100 --> 00:05:46,270
+success of abbreviations
+
+110
+00:05:46,270 --> 00:05:49,540
+all this however was
+
+111
+00:05:49,540 --> 00:05:53,880
+documented in this document with
+
+112
+00:05:53,880 --> 00:05:57,160
+lines of code and explanations
+
+113
+00:05:57,160 --> 00:05:59,970
+goodbye prof
